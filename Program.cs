@@ -2,11 +2,11 @@
 
 namespace burgerShack
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Console.WriteLine("Hi welcome to Burger Shack. Here's our menu, type a number to add item to ticket: ");
     }
+  }
 }
