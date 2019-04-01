@@ -2,11 +2,11 @@ namespace burgerShack.Models
 {
   abstract class Item
   {
-    private string Name { get; set; }
-    private string Description { get; set; }
-    private string Price { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public decimal Price { get; set; }
 
-    public Item(string name, string description, string price)
+    public Item(string name, string description, decimal price)
     {
       Name = name;
       Description = description;

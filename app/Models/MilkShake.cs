@@ -8,7 +8,7 @@ namespace burgerShack.Models
 
     private List<string> Ingredients { get; set; }
 
-    public MilkShake(string name, string description, string price, string size, List<string> ingredients) : base(name, description, price, size)
+    public MilkShake(string name, string description, decimal price, string size, List<string> ingredients) : base(name, description, price, size)
     {
       Ingredients = ingredients;
     }

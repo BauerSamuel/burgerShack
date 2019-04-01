@@ -6,9 +6,9 @@ namespace burgerShack.Models
   class SideItem : FoodItem
   {
 
-    private string Size { get; set; }
+    private string Size { get; set; } = "small";
 
-    public SideItem(string name, string description, string price, List<string> ingredients, string size) : base(name, description, price, ingredients)
+    public SideItem(string name, string description, decimal price, List<string> ingredients, string size) : base(name, description, price, ingredients)
     {
       Size = size;
     }

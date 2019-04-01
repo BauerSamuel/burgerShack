@@ -8,7 +8,7 @@ namespace burgerShack.Models
 
     public bool Ice { get; set; } = true;
 
-    public FountainDrink(string name, string description, string price, string size) : base(name, description, price, size)
+    public FountainDrink(string name, string description, decimal price, string size) : base(name, description, price, size)
     {
 
     }
